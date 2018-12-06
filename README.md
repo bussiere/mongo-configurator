@@ -1,6 +1,6 @@
 # mongo-configurator
 
-Provide configuration fo MongoDB
+Provide configuration fo MongoDB, support env var
 
 # How to USE
 
