@@ -20,22 +20,22 @@ databases:
     collections:
     - name: User
       indexes:
-      - username
-      - usernameCanonical
+        - username
+        - usernameCanonical
     - name: Users
       indexes:
-      - username
-      - usernameCanonical
+        - username
+        - usernameCanonical
   - urlConnect: mongodb://127.0.0.1:27017/testdbdb
     name: testdbdb
     collections:
     - name: User
       indexes:
-      - username
-      - usernameCanonical
+        - username
+        - usernameCanonical
     - name: Users
       indexes:
-      - username
-      - usernameCanonical
+        - username
+        - usernameCanonical
 
 ```
