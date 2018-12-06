@@ -10,7 +10,11 @@ go install github.com/PxyUp/mongo-configurator
 ```
 
 ```bash
-mongo-configurator {YML filName}
+mongo-configurator {YML fileName}
+```
+
+```bash
+mongo-configurator myConfig.yml
 ```
 
 ```yml
