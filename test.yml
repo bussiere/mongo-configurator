@@ -1,19 +1,3 @@
-# mongo-configurator
-
-Provide configuration fo MongoDB
-
-# How to USE
-
-```bash
-go get github.com/PxyUp/mongo-configurator
-go install github.com/PxyUp/mongo-configurator
-```
-
-```bash
-mongo-configurator test.yml
-```
-
-```yml
 databases:
   - urlConnect: mongodb://127.0.0.1:27017/testdb
     name: testdb
@@ -37,5 +21,3 @@ databases:
       indexes:
       - username
       - usernameCanonical
-
-```
