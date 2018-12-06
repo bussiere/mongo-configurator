@@ -43,3 +43,18 @@ databases:
         - usernameCanonical
 
 ```
+
+
+
+With env var
+
+```yml
+databases:
+  - urlConnect: "${TEST_MONGO_URI}"
+    name: "${TEST_MONGO_DB}"
+    collections:
+      - name: "${TEST_MONGO_COLLECTION}"
+        indexes:
+          - username
+          - usernameCanonical
+```
